@@ -54,10 +54,10 @@ const MobileMenu = ({ toggleMenu, nav, navLinks }) => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="fixed z-50 left-0 top-0 w-full h-screen origin-top bg-black text-mainOrange p-5"
+            className="fixed z-50 left-0 top-0 w-full h-screen origin-top bg-white text-mainGreen p-5"
           >
             <div className="flex h-full flex-col">
-              <div className="flex justify-between">
+              <div className="flex justify-between mt-3">
                 <h1 className="text-4xl">Menu</h1>
                 <AiOutlineClose onClick={toggleMenu} className="text-3xl" />
               </div>
@@ -113,7 +113,7 @@ const MobileNavLink = ({ toggleMenu, title, href }) => {
   return (
     <motion.div
       variants={mobileLinkVars}
-      className={`${pathname == `${href}` ? "underline underline-offset-4 decoration-1" : ""} text-3xl uppercase text-center`}
+      className={`${pathname == `${href}` ? "underline decoration-2 decoration-orange-500 underline-offset-4" : ""} text-3xl text-center`}
     >
       <Link className='' onClick={toggleMenu} href={href}>{title}</Link>
     </motion.div>
