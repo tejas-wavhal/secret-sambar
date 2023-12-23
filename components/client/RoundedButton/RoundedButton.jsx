@@ -6,7 +6,7 @@ import gsap from 'gsap';
 import Magnetic from '../MagneticEffect/MagneticEffect';
 import Link from 'next/link';
 
-export default function RoundedButton({ path, children, backgroundColor = "#FB923C", borderColor = "#FB923C", ...attributes }) {
+export default function RoundedButton({ path, children, defaultTextColor = "white", backgroundColor = "#FB923C", borderColor = "#FB923C", ...attributes }) {
 
   const circle = useRef(null);
   let timeline = useRef(null);
@@ -31,7 +31,7 @@ export default function RoundedButton({ path, children, backgroundColor = "#FB92
 
   return (
     <Magnetic>
-      <Link href={path} className={`${styles.roundedButton} border-2`} style={{ overflow: "hidden", borderColor }} onMouseEnter={() => { manageMouseEnter() }} onMouseLeave={() => { manageMouseLeave() }} {...attributes}>
+      <Link href={path} className={`${styles.roundedButton} border-2`} style={{ overflow: "hidden", borderColor, color: defaultTextColor }} onMouseEnter={() => { manageMouseEnter() }} onMouseLeave={() => { manageMouseLeave() }} {...attributes}>
         {
           children
         }

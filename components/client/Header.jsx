@@ -41,7 +41,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="w-full z-30 text-mainGreen border-b-2 border-gray-300 shadow-lg flex items-center justify-between px-4 lg:px-10 py-0.5 font-montserrat bg-mainOrange/40">
+      <header className="w-full z-30 text-mainGreen border-b-2 border-gray-300 shadow-lg flex items-center justify-between px-4 lg:px-10 py-0.5 font-montserrat bg-mainOrange-100">
         <Link className="flex items-center tracking-wide font-semibold text-lg " href="/">
           {/* <img className='h-14 lg:h-16 max-w-full' src='./logo.webp' alt="logo" /> */}
           <img className="h-20 md:h-28 max-w-full" src="/logo.png" alt="logo" />

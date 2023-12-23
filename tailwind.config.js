@@ -8,7 +8,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        mainOrange: "#FDC998",
+        mainOrange: {
+          100: "#FEE9D6",
+          200: "#FDC998",
+        },
         mainGreen: "#2E7037",
         mainGray: "#333333",
         // font-family: 'Montserrat', sans-serif;
@@ -21,9 +24,3 @@ module.exports = {
   },
   plugins: [],
 }
-// colors: {
-//   main: {
-//     100: "#93C8BF",
-//     200: "#7BA29B"
-//   }
-// },
