@@ -18,6 +18,10 @@ const Header = () => {
       href: "/"
     },
     {
+      title: "Gallery",
+      href: "/gallery"
+    },
+    {
       title: "Offer",
       href: "/offer"
     },
@@ -29,10 +33,6 @@ const Header = () => {
       title: "Menu",
       href: "/menu"
     },
-    {
-      title: "Gallery",
-      href: "/gallery"
-    }
   ]
 
   const toggleMenu = () => {

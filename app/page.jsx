@@ -29,7 +29,7 @@ export default function Home() {
 
   return (
     <>
-      <img src="/pic4.avif" className="fixed -top-2 overflow-hidden w-screen -z-10 h-screen object-cover object-center" alt="" />
+      <img src="/pic4.avif" className="fixed -top-2 overflow-hidden w-screen -z-10 h-[105vh] object-cover object-center" alt="" />
 
       <main className="min-h-screen relative">
 
@@ -114,7 +114,7 @@ export default function Home() {
         {/* Healthy Info Section  */}
         <section className="bg-mainGray bg-cover bg-center lg:p-10 relative text-mainOrange-200 flex items-center gap-8 lg:px-40 py-24 lg:py-28 flex-col xl:flex-row">
           <div className="space-y-5">
-            <h2 className="font-bold text-4xl text-center uppercase">Healthy South Indian Fusion</h2>
+            <h2 className="font-bold text-4xl text-center uppercase mx-5">Healthy South Indian Fusion</h2>
             <p className="opacity-90 text-2xl text-center mx-5 lg:mx-8">Healthy indulgence takes center stage at Secret Sambar, where our fusion of South Indian cuisine and health-conscious offerings redefines the dining experience. From heart-healthy delights to gluten-free alternatives, each dish harmonizes tradition and nutrition. Discover the joy of wholesome indulgence, proving that at Secret Sambar, healthy dining is as delightful as it is delicious.</p>
           </div>
           <img src="/pic9.webp" className="h-[22rem] max-w-full px-5 object-cover object-center lg:px-0" alt="" />
@@ -123,7 +123,7 @@ export default function Home() {
         {/* Other Info Section  */}
         <section className="bg-mainOrange-200 bg-cover bg-center lg:p-10 relative flex items-center gap-8 lg:px-40 py-24 lg:py-28 flex-col lg:flex-row-reverse">
           <div className="space-y-5">
-            <h2 className="font-bold text-4xl text-center uppercase">South Spice Delights: Culinary Magic</h2>
+            <h2 className="font-bold text-4xl text-center uppercase mx-5">South Spice Delights: Culinary Magic</h2>
             <p className="opacity-90 text-2xl text-center mx-5 lg:mx-8">Savor culinary magic at South Spice Delights, where each dish captures the essence of South Indian flavors. From aromatic spices to authentic recipes, our menu is a delightful journey into the heart of South India.</p>
           </div>
           <img src="/pic5.webp" className="h-[27rem] max-w-full px-5 object-cover object-center lg:px-0" alt="" />
