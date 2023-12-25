@@ -1,5 +1,8 @@
 .main{
   position: relative;
-  // margin-top: 5rem;
-  margin: 7rem 1rem;
+  padding: 5rem 1rem;
+  background-color:#FDC998;
+  @media screen and (max-width: 600px) {
+    padding-top: 3.5rem;
+  }
 }

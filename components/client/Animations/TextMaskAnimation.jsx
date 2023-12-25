@@ -1,19 +1,19 @@
 'use client'
 import styles from './page.module.scss'
-import { motion } from 'framer-motion';
+import { color, motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
 
-export default function TextMaskAnimation({ phrases }) {
+export default function TextMaskAnimation({ phrases, color = "#FDBA74" }) {
 
   return (
     <div className={styles.container}>
-      <MaskText phrases={phrases} />
+      <MaskText phrases={phrases} color={color} />
     </div>
   )
 }
 
-export function MaskText({ phrases }) {
+export function MaskText({ phrases, color }) {
 
   const animation = {
     initial: { y: "100%" },
@@ -29,7 +29,7 @@ export function MaskText({ phrases }) {
     <div ref={ref} className={styles.body}>
       {
         phrases.map((phrase, index) => {
-          return <div key={index} className={`${styles.lineMask} text-[#FDBA74] font-montserrat text-[1.7rem] md:text-5xl lg:text-[2.5rem] xl:text-[3.5rem]`}>
+          return <div key={index} style={{color}}  className={`${styles.lineMask} font-montserrat text-[1.7rem] md:text-5xl lg:text-[2.5rem] xl:text-[3.5rem]`}>
             <motion.p custom={index} variants={animation} initial="initial" animate={inView ? "enter" : ""}>{phrase}</motion.p>
           </div>
         })

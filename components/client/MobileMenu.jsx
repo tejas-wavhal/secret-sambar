@@ -54,7 +54,7 @@ const MobileMenu = ({ toggleMenu, nav, navLinks }) => {
             initial="initial"
             animate="animate"
             exit="exit"
-            className="fixed z-50 left-0 top-0 w-full h-screen origin-top bg-mainOrange-100 text-mainGreen p-5"
+            className="fixed z-50 left-0 top-0 w-full h-screen origin-top bg-mainGray text-mainOrange-200 p-5"
           >
             <div className="flex h-full flex-col">
               <div className="flex justify-between mt-3">
