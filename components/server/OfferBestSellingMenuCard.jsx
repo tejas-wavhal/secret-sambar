@@ -2,8 +2,8 @@ import React from 'react'
 
 const OfferBestSellingMenuCard = () => {
     return (
-        <div className='min-h-96 md:h-fit md:w-[45rem] bg-mainOrange-100 w-80 border-2 border-mainOrange-200 rounded-3xl mx-auto overflow -hidden shadow-lg shadow-black transition-transform ease-linear hover:scale-105 flex flex-col md:flex-row'>
-            <img className='h-64 max-w-full md:w-80 object-cover object-center rounded-t-3xl md:rounded-t-none md:rounded-l-3xl' src="/pic13.jpg" alt="" />
+        <div className='min-h-96 md:h-fit md:w-[45rem] bg-mainOrange-100 w-80 border-2 border-mainOrange-200 rounded-3xl mx-auto overflow -hidden shadow-lg shadow-black flex flex-col md:flex-row'>
+            <img className='h-64 max-w-full md:w-80 object-cover object-center rounded-t-3xl md:rounded-t-none md:rounded-tl-3xl md:rounded-bl-3xl' src="/pic13.jpg" alt="" />
             <div>
                 <div className='bg-orange-500 h-10 w-20 flex items-center justify-center text-lg rounded-full text-white p-2 mx-auto font-bold relative bottom-5 md:hidden'>
                     ₹ 199

@@ -1,9 +1,7 @@
-"use client"
 import AnimatedBreakline from "@/components/client/AnimatedBreakline/AnimatedBreakline";
-import GradientTextAnimation from "@/components/client/Animations/GradientTextAnimation";
 import TextMaskAnimation from "@/components/client/Animations/TextMaskAnimation";
 import RoundedButton from "@/components/client/RoundedButton/RoundedButton";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 import { ImSpoonKnife } from "react-icons/im";
 import { BiSolidCoffee, BiSolidBowlHot } from "react-icons/bi"
 
@@ -18,14 +16,14 @@ export default function Home() {
     "at Secret Sambar."
   ];
 
-  useEffect(() => {
-    (
-      async () => {
-        const LocomotiveScroll = (await import('locomotive-scroll')).default
-        const locomotiveScroll = new LocomotiveScroll();
-      }
-    )()
-  }, [])
+  // useEffect(() => {
+  //   (
+  //     async () => {
+  //       const LocomotiveScroll = (await import('locomotive-scroll')).default
+  //       const locomotiveScroll = new LocomotiveScroll();
+  //     }
+  //   )()
+  // }, [])
 
   return (
     <>
@@ -35,7 +33,8 @@ export default function Home() {
 
         {/* Hero Section  */}
         <section className="w-full">
-          <div className="flex flex-col lg:flex-row justify-center items-center bg-mainGray">
+          <div className="flex flex-col lg:flex-row justify-center items-center bg-[url('/bgWood.jpg')] relative overflow-hidden bg-cover bg-center">
+          <div className="bg-black/40 absolute h-full w-full top-0" />
             <div className="relative z-20 pb-10 lg:pb-0 lg:left-14 lg:w-[80vw]">
               <div className="my-10 lg:my-0">
                 <TextMaskAnimation phrases={HeroPhrases} />
@@ -46,8 +45,8 @@ export default function Home() {
                 </RoundedButton>
               </div>
             </div>
-            <div className="bg-mainGray h-[30rem] w-32 relative -right-8 -skew-x-6 hidden lg:block" />
-            <img className="h-[30rem] w-[50rem] object-cover object-center" src="./pic5.webp" alt="" />
+            {/* <div className="bg-mainGray h-[30rem] w-32 relative -right-8 -skew-x-6 hidden lg:block" /> */}
+            <img className="relative z-20 h-[30rem] w-[50rem] lg:w-[40vw] object-cover object-center border-t-4 border-t-mainOrange-200 md:border-t-0 lg:border-l-4 border-l-mainOrange-200" src="./pic9.webp" alt="" />
           </div>
         </section>
 
@@ -74,9 +73,11 @@ export default function Home() {
         </section>
 
         {/* Banner Section  */}
-        <section className="bg-mainGray py-20 px-14">
+        <section className="bg-[url('/bgWood.jpg')] py-20 px-14 relative overflow-hidden">
+          
+          <div className="bg-black/40 absolute h-full w-full top-0" />
 
-          <div className="grid grid-cols-1 gap-y-14 lg:gap-y-0 lg:grid-cols-3 lg:gap-x-10">
+          <div className="relative z-50 grid grid-cols-1 gap-y-14 lg:gap-y-0 lg:grid-cols-3 lg:gap-x-10">
 
             <div className="flex flex-col items-center gap-y-2">
               <ImSpoonKnife className="text-orange-500 text-5xl" />

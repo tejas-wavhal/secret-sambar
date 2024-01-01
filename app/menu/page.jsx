@@ -40,7 +40,7 @@ const Menu = () => {
                   <h5 className='text-2xl font-semibold'>Lorem, ipsum.</h5>
                   <p className=''>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, fugiat.</p>
                 </div>
-                <div className='font-semibold ml-2'>
+                <div className='font-semibold ml-2 text-center'>
                   ₹ 199
                 </div>
               </div>
@@ -50,7 +50,7 @@ const Menu = () => {
                   <h5 className='text-2xl font-semibold'>Lorem, ipsum.</h5>
                   <p className=''>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, fugiat.</p>
                 </div>
-                <div className='font-semibold ml-2'>
+                <div className='font-semibold ml-2 text-center'>
                   ₹ 199
                 </div>
               </div>
@@ -60,7 +60,7 @@ const Menu = () => {
                   <h5 className='text-2xl font-semibold'>Lorem, ipsum.</h5>
                   <p className=''>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, fugiat.</p>
                 </div>
-                <div className='font-semibold ml-2'>
+                <div className='font-semibold ml-2 text-center'>
                   ₹ 199
                 </div>
               </div>
@@ -70,7 +70,7 @@ const Menu = () => {
                   <h5 className='text-2xl font-semibold'>Lorem, ipsum.</h5>
                   <p className=''>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, fugiat.</p>
                 </div>
-                <div className='font-semibold ml-2'>
+                <div className='font-semibold ml-2 text-center'>
                   ₹ 199
                 </div>
               </div>
@@ -101,7 +101,7 @@ const Menu = () => {
                   <h5 className='text-2xl font-semibold'>Lorem, ipsum.</h5>
                   <p className=''>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, fugiat.</p>
                 </div>
-                <div className='font-semibold ml-2'>
+                <div className='font-semibold ml-2 text-center'>
                   ₹ 199
                 </div>
               </div>
@@ -111,7 +111,7 @@ const Menu = () => {
                   <h5 className='text-2xl font-semibold'>Lorem, ipsum.</h5>
                   <p className=''>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, fugiat.</p>
                 </div>
-                <div className='font-semibold ml-2'>
+                <div className='font-semibold ml-2 text-center'>
                   ₹ 199
                 </div>
               </div>
@@ -121,7 +121,7 @@ const Menu = () => {
                   <h5 className='text-2xl font-semibold'>Lorem, ipsum.</h5>
                   <p className=''>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, fugiat.</p>
                 </div>
-                <div className='font-semibold ml-2'>
+                <div className='font-semibold ml-2 text-center'>
                   ₹ 199
                 </div>
               </div>
@@ -131,7 +131,7 @@ const Menu = () => {
                   <h5 className='text-2xl font-semibold'>Lorem, ipsum.</h5>
                   <p className=''>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, fugiat.</p>
                 </div>
-                <div className='font-semibold ml-2'>
+                <div className='font-semibold ml-2 text-center'>
                   ₹ 199
                 </div>
               </div>

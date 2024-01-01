@@ -30,7 +30,7 @@ export function MaskText({ phrases, color }) {
       {
         phrases.map((phrase, index) => {
           return <div key={index} style={{color}}  className={`${styles.lineMask} font-montserrat text-[1.7rem] md:text-5xl lg:text-[2.5rem] xl:text-[3.5rem]`}>
-            <motion.p custom={index} variants={animation} initial="initial" animate={inView ? "enter" : ""}>{phrase}</motion.p>
+            <motion.h1 custom={index} variants={animation} initial="initial" animate={inView ? "enter" : ""}>{phrase}</motion.h1>
           </div>
         })
       }

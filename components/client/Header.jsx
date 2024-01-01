@@ -18,16 +18,16 @@ const Header = () => {
       href: "/"
     },
     {
-      title: "Gallery",
-      href: "/gallery"
+      title: "Offer",
+      href: "/offer"
     },
     {
       title: "Menu",
       href: "/menu"
     },
     {
-      title: "Offer",
-      href: "/offer"
+      title: "Gallery",
+      href: "/gallery"
     },
     {
       title: "Mission and Vision",

@@ -24,20 +24,21 @@ const Offer = () => {
         <AnimatedBreakline />
       </div>
 
-      <div className="bg-[url('https://cdn.wallpapersafari.com/49/70/SrjmWE.jpg')] bg-repeat-round bg-cover bg-center">
-        <div className='space-y-8 py-14'>
+      <section className="bg-[url('/bgWood.jpg')] bg-repeat-round bg-cover bg-center relative overflow-hidden">
+      <div className="bg-black/40 absolute h-full w-full top-0" />
+        <div className='space-y-8 py-14 relative z-20'>
           <TextMaskAnimation phrases={["Discount Offers"]} color='#FEE9D6' />
 
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 xl:mx-[10rem]'>
+          <section className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-10 xl:mx-[10rem]'>
             <OfferMenuCard />
             <OfferMenuCard />
             <OfferMenuCard />
             <OfferMenuCard />
             <OfferMenuCard />
             <OfferMenuCard />
-          </div>
+          </section>
 
-          <div className='pt-20 space-y-10'>
+          <section className='pt-20 space-y-10'>
             <TextMaskAnimation phrases={["Best Selling Dishes"]} color='#FEE9D6' />
 
             <div className='space-y-8'>
@@ -47,10 +48,10 @@ const Offer = () => {
 
             </div>
 
-          </div>
+          </section>
 
         </div>
-      </div>
+      </section>
 
     </section>
   )
