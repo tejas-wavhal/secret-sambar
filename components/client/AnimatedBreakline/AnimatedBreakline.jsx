@@ -16,7 +16,7 @@ export default function AnimatedBreakline() {
 
   const setPath = (progress) => {
     const width = window.innerWidth * 0.7;
-    path.current.setAttributeNS(null, "d", `M0 250 Q${width * x} ${250 + progress}, ${width} 250`)
+    path?.current?.setAttributeNS(null, "d", `M0 250 Q${width * x} ${250 + progress}, ${width} 250`)
   }
 
   const lerp = (x, y, a) => x * (1 - a) + y * a

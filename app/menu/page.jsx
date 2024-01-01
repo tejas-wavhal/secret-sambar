@@ -41,7 +41,7 @@ const Menu = () => {
                   <p className=''>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, fugiat.</p>
                 </div>
                 <div className='font-semibold ml-2'>
-                  ₹199
+                  ₹ 199
                 </div>
               </div>
 
@@ -51,7 +51,7 @@ const Menu = () => {
                   <p className=''>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, fugiat.</p>
                 </div>
                 <div className='font-semibold ml-2'>
-                  ₹199
+                  ₹ 199
                 </div>
               </div>
 
@@ -61,7 +61,7 @@ const Menu = () => {
                   <p className=''>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, fugiat.</p>
                 </div>
                 <div className='font-semibold ml-2'>
-                  ₹199
+                  ₹ 199
                 </div>
               </div>
 
@@ -71,7 +71,7 @@ const Menu = () => {
                   <p className=''>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, fugiat.</p>
                 </div>
                 <div className='font-semibold ml-2'>
-                  ₹199
+                  ₹ 199
                 </div>
               </div>
 
@@ -102,7 +102,7 @@ const Menu = () => {
                   <p className=''>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, fugiat.</p>
                 </div>
                 <div className='font-semibold ml-2'>
-                  ₹199
+                  ₹ 199
                 </div>
               </div>
 
@@ -112,7 +112,7 @@ const Menu = () => {
                   <p className=''>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, fugiat.</p>
                 </div>
                 <div className='font-semibold ml-2'>
-                  ₹199
+                  ₹ 199
                 </div>
               </div>
 
@@ -122,7 +122,7 @@ const Menu = () => {
                   <p className=''>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, fugiat.</p>
                 </div>
                 <div className='font-semibold ml-2'>
-                  ₹199
+                  ₹ 199
                 </div>
               </div>
 
@@ -132,7 +132,7 @@ const Menu = () => {
                   <p className=''>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, fugiat.</p>
                 </div>
                 <div className='font-semibold ml-2'>
-                  ₹199
+                  ₹ 199
                 </div>
               </div>
 

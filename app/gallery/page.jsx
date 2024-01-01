@@ -33,9 +33,9 @@ export default function Gallery() {
     requestAnimationFrame(raf)
   })
   return (
-    <main ref={container} className={styles.main}>
+    <section ref={container} className={`${styles.main}`}>
       <TextMaskAnimation phrases={headingPhrases} color='black' />
-      <div className='h-20 overflow-hidden -mb-20'>
+      <div className='h-20 overflow-hidden lg:-mb-10 lg:mt-5'>
         <AnimatedBreakline />
       </div>
       {
@@ -44,6 +44,6 @@ export default function Gallery() {
           return <GalleryCard key={`p_${i}`} i={i} {...project} progress={scrollYProgress} range={[i * .25, 1]} targetScale={targetScale} />
         })
       }
-    </main>
+    </section>
   )
 }
