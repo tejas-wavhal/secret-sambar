@@ -15,14 +15,14 @@ export const projects = [
   },
   {
     title: "Zissou",
-    description: "Though he views photography as a medium for storytelling, Zissou’s images don’t insist on a narrative. Both crisp and ethereal, they’re encoded with an ambiguity—a certain tension—that lets the viewer find their own story within them.",
+    description: "Though he views photography as a medium for storytelling, Zissou’s images don’t insist on a narrative. Both crisp and ethereal, they’re encoded with an ambiguity—a certain tension—that their own story within them.",
     src: "water.jpg",
     link: "https://w0.peakpx.com/wallpaper/101/95/HD-wallpaper-burgers-fast-food-delicious-food-sandwiches-harmful-food.jpg",
     color: "#C2491D"
   },
   {
     title: "Mathias Svold and Ulrik Hasemann",
-    description: "The coastlines of Denmark are documented in tonal colors in a pensive new series by Danish photographers Ulrik Hasemann and Mathias Svold; an ongoing project investigating how humans interact with and disrupt the Danish coast.",
+    description: "The coastlines of Denmark are documented in tonal colors in a pensive new series by Danish photographers Ulrik Hasemann and Mathias Svold; an ongoing proje coast.",
     src: "house.jpg",
     link: "https://b.zmtcdn.com/data/pictures/chains/4/20660874/d5f660086fab91f7813a8c7939d5aca1.jpg",
     color: "#B62429"

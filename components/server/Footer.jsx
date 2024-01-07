@@ -8,8 +8,7 @@ const Footer = () => {
       <footer className=" body-font bg-mainOrange-100 text-mainGreen border-t-2 border-mainGreen">
         <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <Link href={'/'} className="flex title-font font-medium items-center md:justify-start justify-center ">
-            <img src={'./Logo.png'} alt="logo" className='h-16 max-w-full' />
-            {/* <span className="ml-3 text-lg uppercase font-garamond">It&apos;s Street Coffee</span> */}
+            <img src={'/logo.png'} alt="logo" className='h-16 max-w-full' />
           </Link>
           <p className="text-sm  sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 Secret Sambar
           </p>

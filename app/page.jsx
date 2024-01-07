@@ -1,7 +1,6 @@
 import AnimatedBreakline from "@/components/client/AnimatedBreakline/AnimatedBreakline";
 import TextMaskAnimation from "@/components/client/Animations/TextMaskAnimation";
 import RoundedButton from "@/components/client/RoundedButton/RoundedButton";
-// import { useEffect } from "react";
 import { ImSpoonKnife } from "react-icons/im";
 import { BiSolidCoffee, BiSolidBowlHot } from "react-icons/bi"
 
@@ -16,15 +15,6 @@ export default function Home() {
     "at Secret Sambar."
   ];
 
-  // useEffect(() => {
-  //   (
-  //     async () => {
-  //       const LocomotiveScroll = (await import('locomotive-scroll')).default
-  //       const locomotiveScroll = new LocomotiveScroll();
-  //     }
-  //   )()
-  // }, [])
-
   return (
     <>
       <img src="/pic4.avif" className="fixed -top-2 overflow-hidden w-screen -z-10 h-[105vh] object-cover object-center" alt="" />
@@ -36,7 +26,7 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row justify-center items-center bg-[url('/bgWood.jpg')] relative overflow-hidden bg-cover bg-center">
           <div className="bg-black/40 absolute h-full w-full top-0" />
             <div className="relative z-20 pb-10 lg:pb-0 lg:left-14 lg:w-[80vw]">
-              <div className="my-10 lg:my-0">
+              <div className="my-10 lg:my-0 lg:mr-20">
                 <TextMaskAnimation phrases={HeroPhrases} />
               </div>
               <div className="relative flex mx-auto justify-center items-center lg:mt-8 lg:ml-0">
@@ -61,7 +51,7 @@ export default function Home() {
           <AnimatedBreakline />
           <div className="text-black relative -top-20">
             {/* <GradientTextAnimation className="text-center" paragraph={welcomeText} /> */}
-            <p className="font-semibold text-2xl lg:text-5xl mx-5 text-center lg:text-justify lg:mx-36">{welcomeText}</p>
+            <p className="font-semibold text-2xl lg:text-4xl mx-5 text-center lg:mx-36">{welcomeText}</p>
           </div>
 
           <div className="flex justify-center relative -top-10">
@@ -118,7 +108,7 @@ export default function Home() {
             <h2 className="font-bold text-4xl text-center uppercase mx-5">Healthy South Indian Fusion</h2>
             <p className="opacity-90 text-2xl text-center mx-5 lg:mx-8">Healthy indulgence takes center stage at Secret Sambar, where our fusion of South Indian cuisine and health-conscious offerings redefines the dining experience. From heart-healthy delights to gluten-free alternatives, each dish harmonizes tradition and nutrition. Discover the joy of wholesome indulgence, proving that at Secret Sambar, healthy dining is as delightful as it is delicious.</p>
           </div>
-          <img src="/pic9.webp" className="h-[22rem] max-w-full px-5 object-cover object-center lg:px-0" alt="" />
+          <img src="/pic9.webp" className="rounded-3xl h-[22rem] max-w-full px-5 object-cover object-center lg:px-0" alt="" />
         </section>
 
         {/* Other Info Section  */}
@@ -127,7 +117,7 @@ export default function Home() {
             <h2 className="font-bold text-4xl text-center uppercase mx-5">South Spice Delights: Culinary Magic</h2>
             <p className="opacity-90 text-2xl text-center mx-5 lg:mx-8">Savor culinary magic at South Spice Delights, where each dish captures the essence of South Indian flavors. From aromatic spices to authentic recipes, our menu is a delightful journey into the heart of South India.</p>
           </div>
-          <img src="/pic5.webp" className="h-[27rem] max-w-full px-5 object-cover object-center lg:px-0" alt="" />
+          <img src="/pic5.webp" className="rounded-3xl h-[27rem] max-w-full px-5 object-cover object-center lg:px-0" alt="" />
         </section>
 
 

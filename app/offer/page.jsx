@@ -5,6 +5,17 @@ import OfferMenuCard from '@/components/server/OfferDiscountMenuCard';
 import React from 'react'
 import { BiSolidOffer } from "react-icons/bi";
 
+export const metadata = {
+  title: "Exclusive Offers - Secret Sambar",
+  description: "Indulge in exclusive offers and delectable discounts at Secret Sambar. Savor the savings as you explore our wide range of South Indian culinary delights.",
+  alternates: {
+    canonical: 'https://secretsambar.com/offer',
+    languages: {
+      "en-IN": 'https://secretsambar.com/en-IN/offer'
+    }
+  }
+};
+
 const Offer = () => {
 
   const offerHeadingPhrases = [

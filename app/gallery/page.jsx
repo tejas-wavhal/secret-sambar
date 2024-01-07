@@ -1,12 +1,16 @@
-'use client';
-import styles from './page.module.scss'
 import { projects } from './data';
-import GalleryCard from '@/components/client/GalleryCard/GalleryCard';
-import { useScroll } from 'framer-motion';
-import { useEffect, useRef } from 'react';
-import Lenis from '@studio-freight/lenis'
-import TextMaskAnimation from '@/components/client/Animations/TextMaskAnimation';
-import AnimatedBreakline from '@/components/client/AnimatedBreakline/AnimatedBreakline';
+import GalleryPage from '@/components/client/GalleryPage/GalleryPage';
+
+export const metadata = {
+  title: "Gallery - Secret Sambar",
+  description: "Experience the visual feast of South Indian cuisine at Secret Sambar. Explore our gallery and get a glimpse of the delightful dishes we offer.",
+  alternates: {
+    canonical: 'https://secretsambar.com/gallery',
+    languages: {
+      "en-IN": 'https://secretsambar.com/en-IN/gallery'
+    }
+  }
+};
 
 export default function Gallery() {
 
@@ -16,34 +20,10 @@ export default function Gallery() {
     "Experience Culinary Artistry at Secret Sambar."
   ];
 
-  const container = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: container,
-    offset: ['start start', 'end end']
-  })
 
-  useEffect(() => {
-    const lenis = new Lenis()
-
-    function raf(time) {
-      lenis.raf(time)
-      requestAnimationFrame(raf)
-    }
-
-    requestAnimationFrame(raf)
-  })
   return (
-    <section ref={container} className={`${styles.main}`}>
-      <TextMaskAnimation phrases={headingPhrases} color='black' />
-      <div className='h-20 overflow-hidden lg:-mb-10 lg:mt-5'>
-        <AnimatedBreakline />
-      </div>
-      {
-        projects.map((project, i) => {
-          const targetScale = 1 - ((projects.length - i) * 0.05);
-          return <GalleryCard key={`p_${i}`} i={i} {...project} progress={scrollYProgress} range={[i * .25, 1]} targetScale={targetScale} />
-        })
-      }
-    </section>
+    <>
+      <GalleryPage headingPhrases={headingPhrases} projects={projects} />
+    </>
   )
 }

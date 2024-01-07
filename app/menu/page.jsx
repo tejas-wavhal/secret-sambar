@@ -2,6 +2,17 @@ import AnimatedBreakline from '@/components/client/AnimatedBreakline/AnimatedBre
 import TextMaskAnimation from '@/components/client/Animations/TextMaskAnimation'
 import React from 'react'
 
+export const metadata = {
+  title: "Menu - Secret Sambar",
+  description: "Explore the mouthwatering menu at Secret Sambar. From traditional dosas to savory curries, our menu offers a delightful journey into the flavors of South India.",
+  alternates: {
+    canonical: 'https://secretsambar.com/menu',
+    languages: {
+      "en-IN": 'https://secretsambar.com/en-IN/menu'
+    }
+  }
+};
+
 const Menu = () => {
 
   const menuHeadingPhrases = [

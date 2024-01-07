@@ -25,9 +25,8 @@
     h2 {
       text-align: center;
       margin: 5px 0px;
-      font-size: 38px;
+      font-size: 28px;
       font-weight: 600;
-      font-family: Caveat;
       line-height: 100%;
       
       @media screen and (max-width: 600px) {
@@ -61,7 +60,7 @@
       }
 
       p {
-        font-size: 18px;
+        font-size: 22px;
 
         &::first-letter {
           font-size: 28px;
